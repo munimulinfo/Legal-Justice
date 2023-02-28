@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+/* ******hedar styel start*********** */
+
+header {
+	padding-top: 40px;
+}
+.logo-text {
+	font-size: 35px;
+	font-weight: 800px;
+	margin-top:10px;
+}
+.logo {
+	width: 60px;
+	height: 60px;
+}
+.navbar-nav a {
+	font-size: 16px;
+	font-weight: 600px;
+}
+.nav-icon {
+	width: 24px;
+	height: 24px;
+}
+.top-banner {
+	background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(images/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 8px;
+	height: 550px;
+	width: 100%;
+}
+.top-banner-text {
+	font-size: 72px;
+	font-weight: 800px;
+	text-shadow: 1px 1px 2px gray;
+}
+.banner-miniText {
+	color: #E7E7E7;
+	font-size: 16px;
+}
+#banner-input {
+	width: 500px;
+	height: 64px;
+	background-color: white;
+	border: none;
+	padding-left: 20px;
+	border-radius: 8px;
+}
+#banner-button {
+	width: 150px;
+	height: 64px;
+	border: none;
+	background-color: #B68C5A;
+	color: white;
+	border-radius: 8px;
+	margin-left: 24px;
+}
+/* ***********hedar style end************* */
+
+/* ********contact us section styele start************ */
+
+.input {
+	height: 72px;
+	border-radius: 8px;
+	padding-left: 20px;
+	margin-bottom: 30px;
+	background: #F3F3F3;
+	border: 0;
+}
+/* ********contact us section styele end************ */
+
+.infomation {
+	width: 285px;
+	height: 285px;
+	background: #F3F3F3;
+}
+/* *****loyer section style start********* */
+
+.layer img {
+	height: 400px;
+	width: 400px;
+}
+.layer-text {
+	height: 400px;
+	width: 400px;
+}
+.layer {
+	margin-top: 120px;
+}
+/* *****loyer section style end********* */
+
+/* *********fotter style start******** */
+
+footer p {
+	color: #CFCFCF;
+	font-size: 16px;
+}
+footer {
+	padding: 0 50px;
+}
+/* ***********footer style end************ */
+
+/* **********responsive design************** */
+
+/* Mobile divice resoposive style */
+
+@media only screen and (max-width:576px) {
+	.top-banner-text {
+		font-size: 35px;
+	}
+	.contactus {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		margin-bottom: 50px;
+	}
+	#banner-input {
+		width: 210px;
+		margin-left: 0;
+	}
+	#banner-button {
+		width: 100px;
+	}
+	.layer-identity {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.carosel-text {
+		font-size: 10px;
+	}
+	.carosel-h1 {
+		font-size: 16px;
+		margin-top: 40px;
+	}
+	.carosel-h4 {
+		font-size: 12px;
+	}
+	.carosel-img {
+		height: 40px;
+		width: 40px;
+		position: relative;
+		top: 30px;
+	}
+	.mini-text {
+		display: none;
+	}
+	.top-banner {
+		width: 100%;
+	}
+}
+/* mobile divice styel end  */
+
+/* large device style start  */
+
+@media only screen and (min-width:992px) {
+	.carousel-item {
+		height: 500px;
+	}
+}
+/* large device style end  */
+
+/* **********responsive design end************** */
